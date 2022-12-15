@@ -7,13 +7,112 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/contactus.css">
+    <title>contactus</title>
 </head>
 <body>
     <div class="contactus">
         <div class="title">
             <h2>Get in Touch</h2>
         </div>
+        <div class="box">
+            <div class="contact form">
+                <h3>Send a Message</h3>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <div class="formbox">
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>First Name</span>
+                                <input type="text" id="name" placeholder="John">
+                            </div>
+                            <div class="inputbox">
+                                <span>Last Name</span>
+                                <input type="text" id="last name" placeholder="Wick">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>Email Address</span>
+                                <input type="text" id="email" placeholder="johnwick@example.com">
+                            </div>
+                            <div class="inputbox">
+                                <span>Mobile Number</span>
+                                <input type="text" id="phone" placeholder="+91 998 877 6655">
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputbox">
+                                <span>Message</span>
+                                <textarea placeholder="Write your Message" id="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputbox">
+                               <button type="Submit" >  Send </button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+<!-- info box-->
+
+            <div class="contact info">
+                <h3>Contact Information</h3>
+                <div class="infobox">
+                    
+                    <div >
+                        <span><ion-icon name="location"></ion-icon></span>
+                      <p >Kasturba Gandhi National Memorial Trust, <br> Kasturba
+                            vidyalaya , Bakhtawarpur Village <br> Delhi -110036 ,INDIA</p>
+                       
+                        </div>       
+                        <br>
+                        <div>
+                            <span><ion-icon name="mail"></ion-icon></span>
+                    <a href="mailto:kgnmtdelhi@yahoo.co.in,shubhanshkaushik1962@gmail.com"> kgnmtdelhi@yahoo.co.in, <br> shubhanshkaushik1962@gmail.com</a>
+                    </div>
+                <br>
+                <div>
+                    <span><ion-icon name="call"></ion-icon></span>
+                        <p> 9818184635, 701128346</p>
+                </div>
+                </div>
+            </div>
+            <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4273.672254664662!2d77.16914895351185!3d28.82695871241208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dab352d4928e3%3A0x91b94649f5a66a6a!2sKasturba%20Gandhi%20National%20Memorial%20Trust!5e1!3m2!1sen!2sin!4v1671039639152!5m2!1sen!2sin" 
+                 style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+    
+    <script>
+        function sendEmail(){
+            Email.send({
+         Host : "smtp.elasticemail.com",
+         Username : "tanwaranshul13@gmail.com",
+         Password : "C185031FDA031DB99ED771F818E6E3BA5FC5",
+         To : 'tanwaranshul8114@gmail.com',
+         From : "tanwaranshu13@gmail.com",
+         Subject : "New Contact Form",
+         Body : "Name: " + document.getElementById('name').value + 
+         + "<br> Last Name: "+ document.getElementById('last name').value +
+         "<br> Email: "+ document.getElementById('email').value
+         + "<br> Phone Number: "+ document.getElementById('phone').value
+         + "<br> Message: "+ document.getElementById('message').value
+           }).then(
+       message => alert("Message")
+             );
+             console.log("hello")
+            }
+    </script>
 </body>
 </html>
