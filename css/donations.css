@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: linear-gradient(90deg,#ffb300 10%,#ffffff 30%,#ffffff 60%, #048832 100%);
+}
+.contactus{
+    padding: 40px 500px;
+}
+.contactus .title{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+
+
+}
+.contactus .title h2{
+    color: rgb(0, 0, 0);
+    
+}
+
+.contact{
+    font-size: large;
+    text-align: center;
+    padding: 80px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 25px 35px rgba(0,0,0,0.15);
+    min-height: 600px;
+}
+.contact p{
+ padding: 10px;    
+}
+.contact .donate p{
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
