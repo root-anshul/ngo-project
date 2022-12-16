@@ -49,9 +49,10 @@ header nav ul{
         list-style-type: none;
 
 }
-header nav ul li{
-display: inline-block;
-}
+ header nav ul li{
+ display: inline-block;
+ }
+
 header nav ul li a{
         display: inline-block;
         line-height: 75px;
