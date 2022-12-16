@@ -190,7 +190,7 @@ margin-bottom: 10px;
 
 @media(max-width :991px){
     body{
-        background: #03a9f5;
+        background: linear-gradient(90deg,#ffb300 10%,#ffffff 30%,#ffffff 60%, #048832 100%);
     }
     .contactus{
         padding: 20px;
