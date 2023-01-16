@@ -10,7 +10,7 @@
 }
 body
 {
-    background: linear-gradient(90deg,#ffb300 10%,#ffffff 30%,#ffffff 60%, #048832 100%);
+    background: linear-gradient(90deg,#ffb300 10%,#ffffff 30% ,#ffffff 60%, #048832 100%);
 }
 .fullC
 {
@@ -50,7 +50,7 @@ header nav ul li a:hover{
 background-color:var(--themeRed) ;
 }
 .contactus{
-    padding: 40px 500px;
+    padding: 40px 100px;
 }
 .contactus .title{
 display: flex;
@@ -61,23 +61,35 @@ font-size: 2em;
 
 }
 .contactus .title h2{
+    padding-top: 4% ;
+    padding-bottom: 4%;
     color: rgb(0, 0, 0);
-    
+    font-size: 50px;
 }
 
 .contact{
     font-size: large;
     text-align: center;
-    padding: 80px;
+    padding: 40px;
     background: rgb(255, 255, 255);
     box-shadow: 0 25px 35px rgba(0,0,0,0.15);
-    min-height: 600px;
+    min-height: 100vh;
+ 
+ 
 }
 .contact p{
  padding: 10px;    
 }
-.contact .donate p{
+.contact .title{
+    font-size: medium;
+    display: inline-block;
+    border-bottom: 2px solid #fdd831;
+    padding: 0 0.5rem 1.5rem;
 
+    width: auto;
 }
- 
-
+ .title1 h2{
+    padding-top: 4% ;
+    padding-bottom: 4%;
+    text-align: center;
+ } 
