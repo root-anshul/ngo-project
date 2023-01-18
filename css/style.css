@@ -74,10 +74,10 @@ header nav ul li a:hover{
 .slider-frame{
   
   overflow: hidden;
-  height: 600px;
+  height: 650px;
   width: 1200px;  
   margin: auto;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 @-webkit-keyframes slide_animation{
   0% {left: 0px;}
