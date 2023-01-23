@@ -111,7 +111,7 @@ position: relative;
 }
 .container{
   
-  justify-content: center;
+  justify-content:center;
 }
 
 .contactus{
@@ -134,13 +134,16 @@ position: relative;
     
     .contact{
         font-size: large;
-        text-align: center;
+        text-align:justify;
         padding: 40px;
         background: rgb(255, 255, 255);
         box-shadow: 0 25px 35px rgba(0,0,0,0.15);
         min-height: 30px;
      
      
+    }
+    .title{
+        text-align: justify;
     }
     .contact p{
      padding: 10px;    

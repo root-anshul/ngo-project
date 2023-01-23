@@ -76,14 +76,9 @@ font-size: 2em;
 .contact p{
  padding: 10px;    
 }
-.contact .donate p{
-
+#more{
+    display: none;
 }
- 
-
-
-
-
 
 
 
